@@ -1,8 +1,35 @@
-body{
-    background-color: #060D08;
+header nav{
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
 }
 
 
 body {
+    font-family: "Inika";
+    background-color: #060D08;
     color: #F5F5F5;
+
+}
+
+#aboutme{
+    border: 5px solid red;
+    display: flex;
+    /*cima, direita, baixo, esquerda*/
+    margin: 200px 59px 250px 150px;
+}
+
+#aboutme_text{
+    margin-left: 150px;
+}
+
+
+#projects {
+    border: 5px solid red;
+    background-color: #19191A;
 }
