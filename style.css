@@ -29,7 +29,33 @@ body {
 }
 
 
-#projects {
+#project1 {
     border: 5px solid red;
     background-color: #19191A;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 114px;
+}
+
+#project1text{
+    display: flex;
+    margin-left: 32px;
+}
+
+#projectdevlinks{
+    margin-right: 36px;
+}
+
+#projectdevlinks p{
+    margin-top: 25px;    
+}
+
+#devlinkstec{
+    border-left: 2px solid #F5EEEE;
+    padding-left: 36px;
+}
+
+
+#devlinkstec p{
+    margin-top: 25px;
 }
