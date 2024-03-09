@@ -33,8 +33,8 @@ body {
     border: 5px solid red;
     background-color: #19191A;
     display: flex;
-    margin-left: 150px;
-    margin-right: 114px;
+    margin: 0px 114px 0px 150px;
+
 }
 
 #project1text{
@@ -58,4 +58,56 @@ body {
 
 #devlinkstec p{
     margin-top: 25px;
+}
+
+#project2 {
+    border: 5px solid red;
+    background-color: #19191A;
+    display: flex;
+    margin: 20px 114px 250px 150px;
+}
+
+#project2text{
+    display: flex;
+    margin-left: 32px;
+    
+}
+
+#projecttcc{
+    margin-right: 36px;
+}
+
+#tcctec{
+    border-left: 2px solid #F5EEEE;
+    padding-left: 36px;
+}
+
+#hobbys {
+}
+
+#detailer{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#detailer img{
+    width: 310px;
+    height: 310px;
+}
+
+#detailer p{
+    margin-left: 22px;
+}
+
+#viagem{
+    display: flex; 
+    margin-top: 76px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#viagem img{
+    width: 486px;
+    height: 319px;
 }
