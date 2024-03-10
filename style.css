@@ -1,13 +1,4 @@
-header nav{
-    width: 100%;
-}
 
-header nav ul{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    list-style: none;
-}
 
 
 body {
@@ -17,8 +8,29 @@ body {
 
 }
 
+
+header nav{
+    width: 100%;
+    
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+
+
 #aboutme{
-    border: 5px solid red;
     display: flex;
     /*cima, direita, baixo, esquerda*/
     margin: 200px 59px 250px 150px;
@@ -30,11 +42,15 @@ body {
 
 
 #project1 {
-    border: 5px solid red;
     background-color: #19191A;
     display: flex;
     margin: 0px 114px 0px 150px;
+    border-radius: 5px;
 
+}
+
+#project1 img{
+    margin: 5px 0 5px 22px;
 }
 
 #project1text{
@@ -44,6 +60,7 @@ body {
 
 #projectdevlinks{
     margin-right: 36px;
+    text-align: left;
 }
 
 #projectdevlinks p{
@@ -53,6 +70,7 @@ body {
 #devlinkstec{
     border-left: 2px solid #F5EEEE;
     padding-left: 36px;
+    margin-right: 10px;
 }
 
 
@@ -61,16 +79,22 @@ body {
 }
 
 #project2 {
-    border: 5px solid red;
     background-color: #19191A;
     display: flex;
     margin: 20px 114px 250px 150px;
+    border-radius: 5px;
+
+}
+
+#project2 img{
+    margin: 5px 0 5px 22px;
 }
 
 #project2text{
     display: flex;
     margin-left: 32px;
-    
+    text-align: left;
+
 }
 
 #projecttcc{
@@ -80,12 +104,17 @@ body {
 #tcctec{
     border-left: 2px solid #F5EEEE;
     padding-left: 36px;
+    margin-right: 10px;
+
 }
 
-#hobbys {
+#hobbys{
+
 }
 
 #detailer{
+    background-color: #19191A;
+
     display: flex;
     margin-left: 150px;
     margin-right: 114px;
@@ -94,6 +123,7 @@ body {
 #detailer img{
     width: 310px;
     height: 310px;
+    margin-left: 30px;
 }
 
 #detailer p{
@@ -101,10 +131,16 @@ body {
 }
 
 #viagem{
+    background-color: #19191A;
+
     display: flex; 
     margin-top: 76px;
     margin-left: 150px;
     margin-right: 114px;
+}
+
+#viagem p{
+    margin-left: 30px;
 }
 
 #viagem img{
@@ -117,21 +153,38 @@ body {
 }
 
 #contact {
+    margin-top: 100px;
     text-align: center;
+    size: 20px;
+   
 }
 
 #contact form{
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     margin-top: 65px;
     width: 500px;
     margin: 65px auto 0 auto;
     align-items: center;
-    border: 5px solid red;
     background-color: #19191A;
     font-size: 20px;
     text-align: left;
    
+}
+
+#contact form input,textarea{
+    border-radius: 5px;
+
+    background-color: #D9D9D9;
+   
+}
+
+button{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 
