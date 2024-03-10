@@ -87,8 +87,8 @@ body {
 
 #detailer{
     display: flex;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 150px;
+    margin-right: 114px;
 }
 
 #detailer img{
@@ -103,11 +103,40 @@ body {
 #viagem{
     display: flex; 
     margin-top: 76px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 150px;
+    margin-right: 114px;
 }
 
 #viagem img{
     width: 486px;
     height: 319px;
+}
+
+#contact{
+    background-color: #060D08;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    width: 500px;
+    margin: 65px auto 0 auto;
+    align-items: center;
+    border: 5px solid red;
+    background-color: #19191A;
+    font-size: 20px;
+    text-align: left;
+   
+}
+
+
+footer p {
+    text-align: center;
+    font-size: 12px; 
+
 }
