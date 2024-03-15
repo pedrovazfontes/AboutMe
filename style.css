@@ -44,7 +44,7 @@ header nav ul li a{
 #project1 {
     background-color: #19191A;
     display: flex;
-    margin: 0px 114px 0px 150px;
+    margin: 20px 114px 20px 150px;
     border-radius: 5px;
 
 }
@@ -53,35 +53,17 @@ header nav ul li a{
     margin: 5px 0 5px 22px;
 }
 
-#project1text{
-    display: flex;
-    margin-left: 32px;
-}
-
-#projectdevlinks{
-    margin-right: 36px;
-    text-align: left;
-}
-
-#projectdevlinks p{
-    margin-top: 25px;    
-}
 
 #devlinkstec{
     border-left: 2px solid #F5EEEE;
-    padding-left: 36px;
-    margin-right: 10px;
-}
-
-
-#devlinkstec p{
-    margin-top: 25px;
+    margin:16px 10px 16px 10px;
+    padding-left: 10px;
 }
 
 #project2 {
     background-color: #19191A;
     display: flex;
-    margin: 20px 114px 250px 150px;
+    margin: 20px 114px 150px 150px;
     border-radius: 5px;
 
 }
@@ -90,31 +72,17 @@ header nav ul li a{
     margin: 5px 0 5px 22px;
 }
 
-#project2text{
-    display: flex;
-    margin-left: 32px;
-    text-align: left;
 
-}
-
-#projecttcc{
-    margin-right: 36px;
-}
 
 #tcctec{
     border-left: 2px solid #F5EEEE;
-    padding-left: 36px;
-    margin-right: 10px;
-
+    margin:16px 10px 16px 10px;
+    padding-left: 10px;
 }
 
-#hobbys{
-
-}
 
 #detailer{
     background-color: #19191A;
-
     display: flex;
     margin-left: 150px;
     margin-right: 114px;
