@@ -95,7 +95,9 @@ header nav ul li a{
 }
 
 #detailer p{
-    margin-left: 22px;
+    margin-left: 10px;
+    padding-left: 10px;    
+    text-align: justify;
 }
 
 #viagem{
@@ -108,7 +110,9 @@ header nav ul li a{
 }
 
 #viagem p{
-    margin-left: 30px;
+    margin-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
 }
 
 #viagem img{
