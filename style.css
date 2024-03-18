@@ -186,3 +186,70 @@ footer p {
 }
 
 
+/* Reponsividade*/
+
+@media  (max-width: 1200px){
+    #aboutme{
+        margin-left: 50px;
+    }
+    #aboutme_text{
+        margin-left: 20px;
+    }
+
+    #project1{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #project1text{
+        margin-left: 5px;
+    }
+
+    #project2{
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    #project2text{
+        margin-left: 5px;
+    }
+
+    #detailer{
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    #viagem{
+        margin-left: 50px;
+        margin-right: 50px;
+
+
+    }
+}
+
+@media (max-width: 950px){
+    #aboutme{
+        margin-right: 30px;
+    }
+
+    #project1{
+        text-align: center;
+    }
+
+    #project2{
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 768px){
+    
+    #aboutme{
+        margin: 0;
+        text-align: justify;
+    }
+   
+}
