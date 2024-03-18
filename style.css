@@ -15,6 +15,7 @@ header nav{
 }
 
 
+
 header nav ul{
     display: flex;
     justify-content: center;
@@ -22,12 +23,26 @@ header nav ul{
     list-style: none;
 }
 
+/*
+header nav ul li{
+    border: 5px solid #060D08;
+    border-radius: 5px;
+}
+*/
+
+
 
 header nav ul li a{
     text-decoration: none;
     color: #F5F5F5;
 }
 
+header nav ul li a:hover{
+    background-color: #494848;
+    border: 2px solid #494848;
+    border-radius: 10px;
+
+}
 
 
 #aboutme{
@@ -40,6 +55,9 @@ header nav ul li a{
     margin-left: 150px;
 }
 
+ion-icon {
+    font-size: 50px;
+}
 
 #project1 {
     background-color: #19191A;
@@ -84,6 +102,7 @@ header nav ul li a{
 #detailer{
     background-color: #19191A;
     display: flex;
+    padding-right: 10px;
     margin-left: 150px;
     margin-right: 114px;
 }
@@ -165,3 +184,5 @@ footer p {
     font-size: 12px; 
 
 }
+
+
